@@ -1,0 +1,9 @@
+name: my_project
+description: A sample project for AES-256 encryption with Firestore
+
+dependencies:
+  flutter:
+    sdk: flutter
+  encrypt: ^5.0.0   # AES 암호화를 위한 패키지
+  cloud_firestore: ^5.0.0   # Firebase Firestore와의 통합을 위한 패키지
+  firebase_core: ^2.7.0   # Firebase 초기화를 위한 패키지
